@@ -9,7 +9,7 @@ function App() {
       <div>relative</div>
       <div>absolute</div>
       <div>fixed</div>
-      <div>sticky</div>
+      <div>sticky test</div>
     </div>
   );
 }
