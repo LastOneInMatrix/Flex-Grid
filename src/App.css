@@ -1,0 +1,28 @@
+.flex-container{
+    width: calc(100% - 10px);
+    display: flex;
+    border: 1px solid black;
+}
+
+.flex-item{
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+.static{
+    flex-shrink: 3;
+    background-color: blanchedalmond;
+}
+.relative{
+    flex-grow: 3;
+    background-color: #ffcdd9;
+}
+.absolute{
+    background-color: #dcffcd;
+}
+.fixed{
+    background-color: #cde9ff;
+}
+.sticky{
+    background-color: #d78609;
+}
