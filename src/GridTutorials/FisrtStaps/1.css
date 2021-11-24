@@ -1,0 +1,19 @@
+.mainGridContainer {
+    width: 100%;
+    background-color: olivedrab;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, min-content);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.mainGridContainer > .gridItem {
+    padding: .1em;
+    background: gold;
+    text-align: center;
+}
+/*.gridItem{*/
+/*    border: 1px solid black;*/
+/*    background-color: #dcffcd;*/
+/*}*/
