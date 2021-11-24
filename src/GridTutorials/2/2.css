@@ -1,0 +1,35 @@
+.mainGridContainer {
+    background-color: #095bd7;
+    heigth: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "header header header"
+                            "nava content add"
+                           "footer footer footer";
+    grid-template-columns: 20% 1fr 15%;
+    grid-template-rows: 25px 80vh 25px;
+    grid-gap: 1vh;
+}
+
+.mainGridContainer > .gridItem {
+    border: 1px solid black;
+    padding: .1em;
+    background: gold;
+    text-align: center;
+}
+.header{
+    grid-area: header;
+}
+.nav {
+    grid-area: nava ;
+}
+.content{
+    grid-area: content
+}
+.add{
+    grid-area: add;
+}
+.footer{
+    grid-area: footer;
+
+}
